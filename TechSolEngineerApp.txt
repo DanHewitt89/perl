@@ -1,0 +1,41 @@
+Q1)
+	Example one:
+		"Hello Robert"x10
+		"Goodbye Dave"x10
+
+	Example two:
+		"Hello Robert
+		Goodbye Dave
+		Goodbye Dave
+		Goodbye Dave
+		Goodbye Dave
+		Goodbye Dave
+		Goodbye Dave
+		Goodbye Dave
+		Goodbye Dave
+		Goodbye Dave
+		Goodbye Dave"x10
+
+Q2)	True. The placement of the opening <p> tags are what dictate the line breaks. The closing <p> tag could impact older browsers and email clients, but the placement of the closeing <p> tag would only impact any styles that were applied to the opening <p> tag.
+
+Snippet one is the 'best practice', but all three would visually look the same in a browser.
+
+Q3) C "INSERT INTO users ('first_name') VALUES ('Dave', 'Rob')"
+
+Q4) C "SELECT first_name FROM users;"
+
+Q5) B "SELECT * FROM users WHERE first_name = 'Peter';"
+
+Q6) C "ORDER BY"
+
+Q7) D "UPDATE users SET last_name = 'Smith' WHERE last_name = 'Jones';"
+
+Q8) A "DELETE FROM users WHERE first_name = 'Dave';"
+
+Q9) True. By default, fields will accept an empty field or Null value. Setting NOT NULL enforces a value to be input, otherwise the row cannot be created.
+
+Q10) A "ls my_documents"
+
+Q11) I would use the 'dig' command for a verbose lookup, 'nslookup' for more brief information.
+
+Q12) The inclusion of the domain looks to be in error. If they want to include the domain 'mail.example.com' in the record, they would need to preface it with 'include:'.
